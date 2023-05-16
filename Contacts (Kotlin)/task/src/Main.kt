@@ -1,5 +1,7 @@
 package contacts
 
+import contacts.Presentation.ContactsApp
+
 fun main() {
-    println("Hello World!")
+    ContactsApp.start()
 }
