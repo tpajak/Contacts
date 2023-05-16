@@ -1,6 +1,6 @@
 package contacts.Presentation
 
-import Data.Contact
+import data.Contact
 import contacts.Data.InMemoryContactRepository
 import contacts.UseCase.ContactUseCase
 

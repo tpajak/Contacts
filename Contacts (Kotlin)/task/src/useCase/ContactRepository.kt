@@ -1,6 +1,6 @@
 package contacts.UseCase
 
-import Data.Contact
+import data.Contact
 
 interface ContactRepository {
     fun createContact(contact: Contact) : Boolean

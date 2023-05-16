@@ -1,7 +1,7 @@
 package contacts.Data
 
 import contacts.UseCase.ContactRepository
-import Data.Contact
+import data.Contact
 
 val contacts = mutableListOf<Contact>()
 
