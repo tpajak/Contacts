@@ -1,14 +1,13 @@
 package contacts.UseCase
 
-import contacts.Data.InMemoryContactRepository
-import Data.Contact
+import data.Contact
 
 class ContactUseCase(
-    private val inMemoryContactRepository: InMemoryContactRepository
+    private val contactRepository: ContactRepository
 ) : ContactRepository {
 
     override fun createContact(contact: Contact) : Boolean {
-        return inMemoryContactRepository.createContact(contact)
+        return contactRepository.createContact(contact)
     }
 
     override fun getContact(id: Int): Contact {
