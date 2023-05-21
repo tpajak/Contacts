@@ -1,6 +1,7 @@
-package contacts.UseCase
+package useCase
 
 import data.Contact
+
 
 interface ContactRepository {
     fun createContact(contact: Contact) : Boolean
@@ -8,4 +9,5 @@ interface ContactRepository {
     fun updateContact(id: Int) : String
     fun deleteContact(id: Int) : String
     fun listContact() : List<Contact>
+    fun countContacts() : Int
 }

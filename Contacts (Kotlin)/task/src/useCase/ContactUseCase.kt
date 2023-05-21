@@ -1,9 +1,10 @@
-package contacts.UseCase
+package useCase
 
 import data.Contact
+import data.InMemoryContactRepository
 
 class ContactUseCase(
-    private val contactRepository: ContactRepository
+    private val contactRepository: InMemoryContactRepository
 ) : ContactRepository {
 
     override fun createContact(contact: Contact) : Boolean {
@@ -24,5 +25,9 @@ class ContactUseCase(
 
     override fun listContact(): List<Contact> {
         TODO("Not yet implemented")
+    }
+
+    override fun countContacts(): Int {
+        return contactRepository.countContacts()
     }
 }

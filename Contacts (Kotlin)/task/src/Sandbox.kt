@@ -1,20 +1,40 @@
 package contacts
 
-fun main() {
+fun returnIndex(sentence: String): Int {
+    var position: Int = 0
+    for (index in 0..sentence.length - 3) {
+        if (sentence[index] == 't' &&
+            sentence[index + 1] == 'h' &&
+            sentence[index + 2] == 'e') {
+            position = index
+            break
+        } else {
+            position = -1
+        }
+    }
+    return position
+}
+
+    fun main2() {
+
+
+        val input = readln().lowercase()
+        println(returnIndex(input))
+
 
 //    //**************************************************************
 
-    val noNumbers = readln().toInt()
-    val numbers = IntArray(noNumbers) { readln().toInt() }
-    val numberToCount = readln().toInt()
-
-    var counter = 0
-    for (number in numbers) {
-        if (numbers[number] === numberToCount) {
-            counter++
-        }
-    }
-    println(counter)
+//    val noNumbers = readln().toInt()
+//    val numbers = IntArray(noNumbers) { readln().toInt() }
+//    val numberToCount = readln().toInt()
+//
+//    var counter = 0
+//    for (number in numbers) {
+//        if (numbers[number] === numberToCount) {
+//            counter++
+//        }
+//    }
+//    println(counter)
 
 //    //**************************************************************
 //    val arraySize = readln().toInt()
@@ -112,21 +132,21 @@ fun main() {
 //    println(array.joinToString(" "))
 //    println("5 1 2 3 4")
 
-}
-
-class CoursePactice {
-}
-
-enum class DangerLevel(private val priority: String) {
-    HIGH("3"),
-    MEDIUM("2"),
-    LOW("1");
-
-    fun getLevel(): String {
-        return this.priority
     }
-}
 
-fun isOdd(number: Int): String {
-    return if (number % 2 == 0) "ODD" else "EVEN"
-}
+    class CoursePactice {
+    }
+
+    enum class DangerLevel(private val priority: String) {
+        HIGH("3"),
+        MEDIUM("2"),
+        LOW("1");
+
+        fun getLevel(): String {
+            return this.priority
+        }
+    }
+
+    fun isOdd(number: Int): String {
+        return if (number % 2 == 0) "ODD" else "EVEN"
+    }

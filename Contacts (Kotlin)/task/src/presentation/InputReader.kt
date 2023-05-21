@@ -1,4 +1,4 @@
-package contacts.Presentation
+package presentation
 
 class InputReader {
     companion object {

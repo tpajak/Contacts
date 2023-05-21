@@ -1,6 +1,6 @@
 package contacts
 
-import contacts.Presentation.ContactsApp
+import presentation.ContactsApp
 
 fun main() {
     ContactsApp.start()

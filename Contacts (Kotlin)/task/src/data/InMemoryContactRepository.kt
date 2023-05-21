@@ -1,7 +1,6 @@
-package contacts.Data
+package data
 
-import contacts.UseCase.ContactRepository
-import data.Contact
+import useCase.ContactRepository
 
 val contacts = mutableListOf<Contact>()
 
@@ -24,6 +23,10 @@ class InMemoryContactRepository : ContactRepository {
 
     override fun listContact(): List<Contact> {
         TODO("Not yet implemented")
+    }
+
+    override fun countContacts(): Int {
+        return contacts.count()
     }
 
 

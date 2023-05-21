@@ -1,4 +1,4 @@
-package contacts.repository.validator
+package validator
 
 interface Validator {
     fun isValid(value: String) : Boolean

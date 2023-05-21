@@ -1,11 +1,11 @@
-package contacts.Presentation
+package presentation
 
 import data.Contact
-import contacts.Data.InMemoryContactRepository
-import contacts.UseCase.ContactUseCase
-import contacts.presentation.operations.Command
-import contacts.presentation.operations.SimpleCommand
-import contacts.presentation.operations.UserActionResult
+import data.InMemoryContactRepository
+import operations.Command
+import operations.SimpleCommand
+import operations.UserActionResult
+import useCase.ContactUseCase
 
 class ContactsApp {
 
@@ -50,6 +50,15 @@ class ContactsApp {
                         return@SimpleCommand "add"
                     }
                 }
+
+                "count" -> {
+                    return SimpleCommand {
+                        val records = contactUseCase.countContacts()
+                        message.printMessage("The Phone Book has $records records.")
+                        return@SimpleCommand "count"
+                    }
+                }
+
 
                 "exit" -> {
                     return SimpleCommand {

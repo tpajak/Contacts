@@ -1,7 +1,7 @@
-package contacts.repository.validator
+package validator
 
 class NameValidator: Validator {
-    override fun isValid(name: String): Boolean {
+    override fun isValid(value: String): Boolean {
         TODO("Not yet implemented")
     }
 }
