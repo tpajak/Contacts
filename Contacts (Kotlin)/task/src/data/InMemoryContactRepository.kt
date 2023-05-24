@@ -2,7 +2,7 @@ package data
 
 import useCase.ContactRepository
 
-val contacts = mutableListOf<Contact>()
+private val contacts = mutableListOf<Contact>()
 
 class InMemoryContactRepository : ContactRepository {
     override fun createContact(contact: Contact) : Boolean {
