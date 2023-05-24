@@ -23,8 +23,8 @@ class ContactUseCase(
         TODO("Not yet implemented")
     }
 
-    override fun listContact(): List<Contact> {
-        TODO("Not yet implemented")
+    override fun listContacts(): List<Contact> {
+        return contactRepository.listContacts()
     }
 
     override fun countContacts(): Int {

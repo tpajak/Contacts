@@ -8,6 +8,6 @@ interface ContactRepository {
     fun getContact(id: Int) : Contact
     fun updateContact(id: Int) : String
     fun deleteContact(id: Int) : String
-    fun listContact() : List<Contact>
+    fun listContacts() : List<Contact>
     fun countContacts() : Int
 }

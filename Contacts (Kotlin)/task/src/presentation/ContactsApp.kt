@@ -50,6 +50,17 @@ class ContactsApp {
                     }
                 }
 
+                "edit" -> {
+                    return SimpleCommand {
+                        if (contactUseCase.listContacts().isEmpty()) {
+                            message.printMessage("No records to edit!")
+                        } else {
+                            message.printContactsList(contactUseCase.listContacts())
+                        }
+                        return@SimpleCommand "edit"
+                    }
+                }
+
                 "count" -> {
                     return SimpleCommand {
                         val records = contactUseCase.countContacts()
