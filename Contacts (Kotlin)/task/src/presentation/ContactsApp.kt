@@ -34,14 +34,13 @@ class ContactsApp {
 
             when (commandResult.command) {
                 "add" -> {
-//                        val commandResult = UserActionResult.Add(userInput[0]) //TODO: DO I need to pass userInput param?
                     return SimpleCommand {
                         message.printMessage("Enter the name:")
-                        val name = InputReader.readUserInput().toString()
+                        val name = InputReader.readUserInput().first()
                         message.printMessage("Enter the surname of the person:")
-                        val surname = InputReader.readUserInput().toString()
+                        val surname = InputReader.readUserInput().first()
                         message.printMessage("Enter the number:")
-                        val phoneNumber = InputReader.readUserInput().toString()
+                        val phoneNumber = InputReader.readUserInput().first()
                         if (contactUseCase.createContact(Contact(name, surname, phoneNumber))) {
                             message.printMessage("The record added")
                         } else {
