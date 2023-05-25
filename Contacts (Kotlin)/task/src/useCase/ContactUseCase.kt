@@ -1,5 +1,6 @@
 package useCase
 
+import contacts.domain.OperationStatus
 import data.Contact
 import data.InMemoryContactRepository
 
@@ -19,8 +20,8 @@ class ContactUseCase(
         TODO("Not yet implemented")
     }
 
-    override fun deleteContact(id: Int): String {
-        TODO("Not yet implemented")
+    override fun deleteContact(id: Int): OperationStatus {
+        return contactRepository.deleteContact(id)
     }
 
     override fun listContacts(): List<Contact> {

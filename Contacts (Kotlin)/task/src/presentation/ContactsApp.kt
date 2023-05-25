@@ -1,5 +1,6 @@
 package presentation
 
+import contacts.domain.OperationStatus
 import data.Contact
 import data.InMemoryContactRepository
 import operations.Command
@@ -37,7 +38,7 @@ class ContactsApp {
                     return SimpleCommand {
                         message.printMessage("Enter the name:")
                         val name = InputReader.readUserInput().first()
-                        message.printMessage("Enter the surname of the person:")
+                        message.printMessage("Enter the surname:")
                         val surname = InputReader.readUserInput().first()
                         message.printMessage("Enter the number:")
                         val phoneNumber = InputReader.readUserInput().first()
@@ -47,6 +48,24 @@ class ContactsApp {
                             message.printMessage("Something went wrong!")
                         }
                         return@SimpleCommand "add"
+                    }
+                }
+
+                "remove" -> {
+                    return SimpleCommand {
+                        if (contactUseCase.listContacts().isEmpty()) {
+                            message.printMessage("No records to remove!")
+                        } else {
+                            message.printContactsList(contactUseCase.listContacts())
+                            message.printMessage("Select a record:")
+                            val recordToRemove = InputReader.readUserInput().first().toInt()
+                            when (contactUseCase.deleteContact(recordToRemove)) {
+                                OperationStatus.SUCCESS -> message.printMessage("The record removed!")
+                                OperationStatus.EMPTY_LIST -> message.printMessage("No records to remove!")
+                                OperationStatus.FAILURE ->message.printMessage("Something went wrong when removing the record!")
+                            }
+                        }
+                        return@SimpleCommand "remove"
                     }
                 }
 
@@ -68,7 +87,6 @@ class ContactsApp {
                         return@SimpleCommand "count"
                     }
                 }
-
 
                 "exit" -> {
                     return SimpleCommand {
