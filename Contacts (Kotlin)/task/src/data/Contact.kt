@@ -5,24 +5,23 @@ data class Contact(
     private val _surname:String,
     private val _phoneNumber:String,
 ) {
-    val name: String
+    private val name: String = _name
         get() {
-            return if (_name != "") _name else ""
+            return if (field != "") field else ""
         }
 
-    val surname: String
+    private val surname: String = _surname
         get() {
-            return if (_surname != "") _surname else ""
+            return if (field != "") field else ""
         }
 
-    val phoneNumber: String
+    private val phoneNumber: String = _phoneNumber
         get() {
-            return if (_phoneNumber != "") _phoneNumber else "[no number]"
+            return if (field != "") field else "[no number]"
         }
 
     override fun toString(): String {
         return "$name $surname, $phoneNumber"
     }
-
 
 }
