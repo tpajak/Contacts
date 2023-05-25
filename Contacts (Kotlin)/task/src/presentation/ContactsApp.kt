@@ -75,6 +75,26 @@ class ContactsApp {
                             message.printMessage("No records to edit!")
                         } else {
                             message.printContactsList(contactUseCase.listContacts())
+                            message.printMessage("Select a record:")
+                            val recordToEdit = InputReader.readUserInput().first()
+                            message.printMessage("Select a field (name, surname, number):")
+                            val filedToEdit = InputReader.readUserInput().first()
+                            when (filedToEdit) {
+                                "name" -> {
+                                    message.printMessage("Enter the name:")
+                                    val newName = InputReader.readUserInput().first()
+                                }
+
+                                "surname" -> {
+                                    message.printMessage("Enter the surname:")
+                                    val newSurname = InputReader.readUserInput().first()
+                                }
+
+                                "number" -> {
+                                    message.printMessage("Enter the number:")
+                                    val newNumber = InputReader.readUserInput().first()
+                                }
+                            }
                         }
                         return@SimpleCommand "edit"
                     }

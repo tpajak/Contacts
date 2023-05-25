@@ -14,7 +14,7 @@ class InMemoryContactRepository : ContactRepository {
         TODO("Not yet implemented")
     }
 
-    override fun updateContact(id: Int): String {
+    override fun updateContact(id: Int): Boolean {
         TODO("Not yet implemented")
     }
 
