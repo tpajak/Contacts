@@ -108,6 +108,17 @@ class ContactsApp {
                     }
                 }
 
+                "list" -> {
+                    return SimpleCommand {
+                        if (contactUseCase.listContacts().isEmpty()) {
+                            message.printMessage("No records to list!")
+                        } else {
+                            message.printContactsList(contactUseCase.listContacts())
+                        }
+                        return@SimpleCommand "list"
+                    }
+                }
+
                 "exit" -> {
                     return SimpleCommand {
                         return@SimpleCommand "exit"
