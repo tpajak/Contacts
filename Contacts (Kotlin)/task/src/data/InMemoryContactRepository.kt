@@ -6,7 +6,7 @@ import useCase.ContactRepository
 private val contacts = mutableListOf<Contact>()
 
 class InMemoryContactRepository : ContactRepository {
-    override fun createContact(contact: Contact) : Boolean {
+    override fun createContact(contact: Contact): Boolean {
         return contacts.add(contact)
     }
 
