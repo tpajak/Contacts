@@ -15,14 +15,20 @@ data class Contact(
         }
     }
 
-    private val name: String = _name
+    var name: String = _name
         get() {
             return if (field != "") field else ""
         }
+        set(value) {
+            field = value
+        }
 
-    private val surname: String = _surname
+    var surname: String = _surname
         get() {
             return if (field != "") field else ""
+        }
+        set(value) {
+            field = value
         }
 
     var phoneNumber: String = _phoneNumber
@@ -31,9 +37,9 @@ data class Contact(
         }
         set(value) {
             if (!PhoneNumber().isValid(value)) {
-                _phoneNumber = "[no number]"
+                field = "[no number]"
             } else {
-                _phoneNumber
+                field = value
             }
         }
 

@@ -16,8 +16,16 @@ class ContactUseCase(
         TODO("Not yet implemented")
     }
 
-    override fun updateContact(id: Int): Boolean {
-        TODO("Not yet implemented")
+    override fun updateContactName(id: Int, newName: String): OperationStatus {
+        return contactRepository.updateContactName(id, newName)
+    }
+
+    override fun updateContactSurname(id: Int, newSurname: String): OperationStatus {
+        return contactRepository.updateContactSurname(id, newSurname)
+    }
+
+    override fun updateContactPhoneNumber(id: Int, newPhoneNumber: String): OperationStatus {
+        return contactRepository.updateContactPhoneNumber(id, newPhoneNumber)
     }
 
     override fun deleteContact(id: Int): OperationStatus {

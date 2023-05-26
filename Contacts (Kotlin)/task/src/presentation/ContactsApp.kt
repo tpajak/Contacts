@@ -76,23 +76,39 @@ class ContactsApp {
                         } else {
                             message.printContactsList(contactUseCase.listContacts())
                             message.printMessage("Select a record:")
-                            val recordToEdit = InputReader.readUserInput().first()
+                            val recordToEdit = InputReader.readUserInput().first().toInt()
                             message.printMessage("Select a field (name, surname, number):")
                             val filedToEdit = InputReader.readUserInput().first()
                             when (filedToEdit) {
                                 "name" -> {
                                     message.printMessage("Enter the name:")
                                     val newName = InputReader.readUserInput().first()
+                                    when (contactUseCase.updateContactName(recordToEdit, newName)) {
+                                        OperationStatus.SUCCESS -> message.printMessage("The record updated!")
+                                        OperationStatus.EMPTY_LIST -> message.printMessage("No records to edit!")
+                                        OperationStatus.FAILURE ->message.printMessage("Something went wrong when removing the record!")
+                                    }
+
                                 }
 
                                 "surname" -> {
                                     message.printMessage("Enter the surname:")
                                     val newSurname = InputReader.readUserInput().first()
+                                    when (contactUseCase.updateContactSurname(recordToEdit, newSurname)) {
+                                        OperationStatus.SUCCESS -> message.printMessage("The record updated!")
+                                        OperationStatus.EMPTY_LIST -> message.printMessage("No records to edit!")
+                                        OperationStatus.FAILURE ->message.printMessage("Something went wrong when removing the record!")
+                                    }
                                 }
 
                                 "number" -> {
                                     message.printMessage("Enter the number:")
                                     val newNumber = InputReader.readUserInput().first()
+                                    when (contactUseCase.updateContactPhoneNumber(recordToEdit, newNumber)) {
+                                        OperationStatus.SUCCESS -> message.printMessage("The record updated!")
+                                        OperationStatus.EMPTY_LIST -> message.printMessage("No records to edit!")
+                                        OperationStatus.FAILURE ->message.printMessage("Something went wrong when removing the record!")
+                                    }
                                 }
                             }
                         }
