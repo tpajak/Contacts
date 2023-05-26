@@ -1,2 +1,3 @@
 # Project exclude paths
 /.gradle/
+/Contacts (Kotlin)/task/src/Sandbox.kt
