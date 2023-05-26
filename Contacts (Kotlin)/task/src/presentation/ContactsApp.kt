@@ -41,7 +41,7 @@ class ContactsApp {
                         message.printMessage("Enter the surname:")
                         val surname = InputReader.readUserInput().first()
                         message.printMessage("Enter the number:")
-                        val phoneNumber = InputReader.readUserInput(useSplit = false).first()
+                        val phoneNumber = InputReader.readUserInput(splitInput = false).first()
                         if (contactUseCase.createContact(Contact(name, surname, phoneNumber))) {
                             message.printMessage("The record added")
                         } else {

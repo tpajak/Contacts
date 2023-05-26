@@ -1,6 +1,6 @@
-package validator
+package validation
 
-class NameValidator: Validator {
+class Name: Validate {
     override fun isValid(value: String): Boolean {
         TODO("Not yet implemented")
     }

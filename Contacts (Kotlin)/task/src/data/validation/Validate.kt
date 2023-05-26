@@ -1,5 +1,5 @@
-package validator
+package validation
 
-interface Validator {
+interface Validate {
     fun isValid(value: String) : Boolean
 }

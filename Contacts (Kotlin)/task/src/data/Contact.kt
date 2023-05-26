@@ -1,6 +1,6 @@
 package data
 
-import validator.ValidatorPhoneNumber
+import validation.PhoneNumber
 
 data class Contact(
     private val _name:String,
@@ -8,7 +8,7 @@ data class Contact(
     private var _phoneNumber:String,
 ) {
     init {
-        if (!ValidatorPhoneNumber().isValid(_phoneNumber)) {
+        if (!PhoneNumber().isValid(_phoneNumber)) {
             _phoneNumber = "[no number]"
         } else {
             _phoneNumber
@@ -30,7 +30,7 @@ data class Contact(
             return if (field != "") field else "[no number]"
         }
         set(value) {
-            if (!ValidatorPhoneNumber().isValid(value)) {
+            if (!PhoneNumber().isValid(value)) {
                 _phoneNumber = "[no number]"
             } else {
                 _phoneNumber
