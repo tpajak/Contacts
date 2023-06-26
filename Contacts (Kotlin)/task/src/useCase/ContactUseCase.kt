@@ -1,5 +1,6 @@
 package useCase
 
+import contacts.useCase.ContactRepository
 import contacts.domain.OperationStatus
 import data.Contact
 import data.InMemoryContactRepository
@@ -8,12 +9,12 @@ class ContactUseCase(
     private val contactRepository: InMemoryContactRepository
 ) : ContactRepository {
 
-    override fun createContact(contact: Contact) : Boolean {
+    override fun createContact(contact: Contact) : OperationStatus {
         return contactRepository.createContact(contact)
     }
 
     override fun getContact(id: Int): Contact {
-        TODO("Not yet implemented")
+        return contactRepository.getContact(id)
     }
 
     override fun updateContactName(id: Int, newName: String): OperationStatus {
@@ -24,8 +25,20 @@ class ContactUseCase(
         return contactRepository.updateContactSurname(id, newSurname)
     }
 
+    override fun updateContactGender(id: Int, newGender: String): OperationStatus {
+        return contactRepository.updatePersonGender(id, newGender)
+    }
+
+    override fun updateContactBirth(id: Int, newBirth: String): OperationStatus {
+        return contactRepository.updateContactBirth(id, newBirth)
+    }
+
     override fun updateContactPhoneNumber(id: Int, newPhoneNumber: String): OperationStatus {
         return contactRepository.updateContactPhoneNumber(id, newPhoneNumber)
+    }
+
+    override fun updateContactAddress(id: Int, newAddress: String): OperationStatus {
+        return contactRepository.updateContactAddress(id, newAddress)
     }
 
     override fun deleteContact(id: Int): OperationStatus {

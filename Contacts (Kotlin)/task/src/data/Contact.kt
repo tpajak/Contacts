@@ -1,50 +1,54 @@
 package data
 
+import contacts.data.IContact
 import validation.PhoneNumber
+import java.time.LocalDateTime
 
-data class Contact(
-    private val _name:String,
-    private val _surname:String,
-    private var _phoneNumber:String,
-) {
+abstract class Contact(
+    private var _phoneNumber: String
+) : IContact {
+    abstract var type: String
+    private var _id: Int? = null
+    private lateinit var _creationTime: LocalDateTime
+    private lateinit var _lastEditTime: LocalDateTime
+
     init {
-        if (!PhoneNumber().isValid(_phoneNumber)) {
-            _phoneNumber = "[no number]"
-        } else {
-            _phoneNumber
-        }
+        updateCreatedTime()
     }
 
-    var name: String = _name
+    open var phoneNumber: String
         get() {
-            return if (field != "") field else ""
+            return if (_phoneNumber != "") _phoneNumber else ""
         }
         set(value) {
-            field = value
-        }
-
-    var surname: String = _surname
-        get() {
-            return if (field != "") field else ""
-        }
-        set(value) {
-            field = value
-        }
-
-    var phoneNumber: String = _phoneNumber
-        get() {
-            return if (field != "") field else "[no number]"
-        }
-        set(value) {
-            if (!PhoneNumber().isValid(value)) {
-                field = "[no number]"
+            _phoneNumber = if (!PhoneNumber().isValid(value)) {
+                "[no number]"
             } else {
-                field = value
+                value
             }
+            updateTimeLastEdit()
         }
 
-    override fun toString(): String {
-        return "$name $surname, $phoneNumber"
+    var lastEditTime: LocalDateTime
+        get() = _lastEditTime
+        set(value) {
+            _lastEditTime = value
+        }
+
+    var creationTime: LocalDateTime
+        get() = _creationTime
+        set(value) {
+            _creationTime = value
+        }
+
+    fun updateTimeLastEdit () {
+        lastEditTime = LocalDateTime.now()
+    }
+
+    private fun updateCreatedTime () {
+        val currentTime = LocalDateTime.now()
+        creationTime = currentTime
+        lastEditTime = currentTime
     }
 
 }
