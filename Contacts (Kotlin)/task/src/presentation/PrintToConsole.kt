@@ -3,8 +3,12 @@ package presentation
 import data.Contact
 
 class PrintToConsole : Print {
-    override fun printMessage(message: String) {
-        return println(message)
+    override fun printMessage(message: String, lineBreak: Boolean) {
+        return if (lineBreak) {
+            println(message)
+        } else {
+            print(message)
+        }
     }
 
     override fun printContactsList(list: List<Contact>) {
