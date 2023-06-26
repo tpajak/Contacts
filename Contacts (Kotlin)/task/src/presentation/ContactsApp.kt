@@ -1,5 +1,10 @@
 package presentation
 
+import contacts.data.CompanyContact
+import contacts.data.PersonContact
+import contacts.data.validation.Birthdate
+import contacts.data.validation.Gender
+import contacts.data.validation.Genders
 import contacts.domain.OperationStatus
 import data.Contact
 import data.InMemoryContactRepository
@@ -124,14 +129,17 @@ class ContactsApp {
                     }
                 }
 
-                "list" -> {
+                "info" -> {
                     return SimpleCommand {
                         if (contactUseCase.listContacts().isEmpty()) {
                             message.printMessage("No records to list!")
                         } else {
                             message.printContactsList(contactUseCase.listContacts())
+                            message.printMessage("Enter index to show info:")
+                            val recordToShow = InputReader.readUserInput().first().toInt()
+                            message.printContactDetails(contactUseCase.getContact(recordToShow))
                         }
-                        return@SimpleCommand "list"
+                        return@SimpleCommand "info"
                     }
                 }
 
