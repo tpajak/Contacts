@@ -163,10 +163,6 @@ class InMemoryContactRepository : ContactRepository, IPersonContact, ICompanyCon
 
     override fun get(id: Int): Contact {
         return contacts[id - 1]
-//        return when (contact) {
-//            is PersonContact -> {}
-//            is CompanyContact -> {}
-//        }
     }
 
 }
