@@ -41,7 +41,7 @@ abstract class Contact(
             _creationTime = value
         }
 
-    fun updateTimeLastEdit () {
+    override fun updateTimeLastEdit () {
         lastEditTime = LocalDateTime.now()
     }
 
