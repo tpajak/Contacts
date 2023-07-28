@@ -1,3 +1,402 @@
 # Project exclude paths
 /.gradle/
 /Contacts (Kotlin)/task/src/Sandbox.kt
+/.idea/frameworkLessonHistory/storage.storageData
+/.idea/frameworkLessonHistory/storage.storageRecordIndex
+/.idea/libraries/Gradle__com_github_hyperskill_hs_test_release_SNAPSHOT.xml
+/.idea/libraries/Gradle__com_google_code_gson_gson_2_8_9.xml
+/.idea/libraries/Gradle__com_squareup_moshi_moshi_1_13_0.xml
+/.idea/libraries/Gradle__com_squareup_moshi_moshi_adapters_1_13_0.xml
+/.idea/libraries/Gradle__com_squareup_moshi_moshi_kotlin_1_13_0.xml
+/.idea/libraries/Gradle__com_squareup_okio_okio_2_10_0.xml
+/.idea/libraries/Gradle__commons_codec_commons_codec_1_11.xml
+/.idea/libraries/Gradle__commons_logging_commons_logging_1_2.xml
+/.idea/libraries/Gradle__junit_junit_4_13_2.xml
+/.idea/libraries/Gradle__org_apache_httpcomponents_httpclient_4_5_13.xml
+/.idea/libraries/Gradle__org_apache_httpcomponents_httpcore_4_4_13.xml
+/.idea/libraries/Gradle__org_assertj_assertj_core_3_17_2.xml
+/.idea/libraries/Gradle__org_assertj_assertj_swing_3_17_1.xml
+/.idea/libraries/Gradle__org_assertj_assertj_swing_junit_3_17_1.xml
+/.idea/libraries/Gradle__org_easytesting_fest_reflect_1_4_1.xml
+/.idea/libraries/Gradle__org_easytesting_fest_util_1_2_5.xml
+/.idea/libraries/Gradle__org_hamcrest_hamcrest_core_1_3.xml
+/.idea/libraries/Gradle__org_jetbrains_annotations_13_0.xml
+/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_reflect_1_6_0.xml
+/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_1_6_10.xml
+/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_common_1_6_10.xml
+/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk7_1_6_10.xml
+/.idea/libraries/Gradle__org_jetbrains_kotlin_kotlin_stdlib_jdk8_1_6_10.xml
+/.idea/modules/Contacts (Kotlin)/task/build/classes/java/Contacts_(Kotlin).Contacts__Kotlin_-task-build-classes-java.iml
+/.idea/modules/Contacts (Kotlin)/task/build/classes/java/Contacts_(Kotlin).Contacts__Kotlin_-task-build-classes-java.main.iml
+/.idea/modules/Contacts (Kotlin)/task/build/classes/java/Contacts_(Kotlin).Contacts__Kotlin_-task-build-classes-java.test.iml
+/.idea/modules/Contacts (Kotlin)/task/build/classes/kotlin/Contacts_(Kotlin).Contacts__Kotlin_-task-build-classes-kotlin.iml
+/.idea/modules/Contacts (Kotlin)/task/build/classes/kotlin/Contacts_(Kotlin).Contacts__Kotlin_-task-build-classes-kotlin.main.iml
+/.idea/modules/Contacts (Kotlin)/task/build/classes/kotlin/Contacts_(Kotlin).Contacts__Kotlin_-task-build-classes-kotlin.test.iml
+/.idea/modules/Contacts (Kotlin)/task/build/generated/sources/annotationProcessor/java/Contacts_(Kotlin).Contacts__Kotlin_-task-build-generated-sources-annotationProcessor-java.iml
+/.idea/modules/Contacts (Kotlin)/task/build/generated/sources/annotationProcessor/java/Contacts_(Kotlin).Contacts__Kotlin_-task-build-generated-sources-annotationProcessor-java.main.iml
+/.idea/modules/Contacts (Kotlin)/task/build/generated/sources/annotationProcessor/java/Contacts_(Kotlin).Contacts__Kotlin_-task-build-generated-sources-annotationProcessor-java.test.iml
+/.idea/modules/Contacts (Kotlin)/task/build/generated/sources/headers/java/Contacts_(Kotlin).Contacts__Kotlin_-task-build-generated-sources-headers-java.iml
+/.idea/modules/Contacts (Kotlin)/task/build/generated/sources/headers/java/Contacts_(Kotlin).Contacts__Kotlin_-task-build-generated-sources-headers-java.main.iml
+/.idea/modules/Contacts (Kotlin)/task/build/generated/sources/headers/java/Contacts_(Kotlin).Contacts__Kotlin_-task-build-generated-sources-headers-java.test.iml
+/.idea/modules/Contacts (Kotlin)/task/build/reports/tests/Contacts_(Kotlin).Contacts__Kotlin_-task-build-reports-tests.iml
+/.idea/modules/Contacts (Kotlin)/task/build/reports/tests/Contacts_(Kotlin).Contacts__Kotlin_-task-build-reports-tests.main.iml
+/.idea/modules/Contacts (Kotlin)/task/build/reports/tests/Contacts_(Kotlin).Contacts__Kotlin_-task-build-reports-tests.test.iml
+/.idea/modules/Contacts (Kotlin)/task/build/test-results/Contacts_(Kotlin).Contacts__Kotlin_-task-build-test-results.iml
+/.idea/modules/Contacts (Kotlin)/task/build/test-results/Contacts_(Kotlin).Contacts__Kotlin_-task-build-test-results.main.iml
+/.idea/modules/Contacts (Kotlin)/task/build/test-results/Contacts_(Kotlin).Contacts__Kotlin_-task-build-test-results.test.iml
+/.idea/modules/Contacts (Kotlin)/task/build/tmp/Contacts_(Kotlin).Contacts__Kotlin_-task-build-tmp.iml
+/.idea/modules/Contacts (Kotlin)/task/build/tmp/Contacts_(Kotlin).Contacts__Kotlin_-task-build-tmp.main.iml
+/.idea/modules/Contacts (Kotlin)/task/build/tmp/Contacts_(Kotlin).Contacts__Kotlin_-task-build-tmp.test.iml
+/.idea/modules/Contacts (Kotlin)/task/out/Contacts_(Kotlin).Contacts__Kotlin_-task-out.iml
+/.idea/modules/Contacts (Kotlin)/task/out/Contacts_(Kotlin).Contacts__Kotlin_-task-out.main.iml
+/.idea/modules/Contacts (Kotlin)/task/out/Contacts_(Kotlin).Contacts__Kotlin_-task-out.test.iml
+/.idea/modules/Contacts (Kotlin)/task/Contacts_(Kotlin).Contacts__Kotlin_-task.iml
+/.idea/modules/Contacts (Kotlin)/task/Contacts_(Kotlin).Contacts__Kotlin_-task.main.iml
+/.idea/modules/Contacts (Kotlin)/task/Contacts_(Kotlin).Contacts__Kotlin_-task.test.iml
+/.idea/modules/util/Contacts_(Kotlin).util.iml
+/.idea/modules/util/Contacts_(Kotlin).util.main.iml
+/.idea/modules/util/Contacts_(Kotlin).util.test.iml
+/.idea/modules/Contacts_(Kotlin).iml
+/.idea/.gitignore
+/.idea/compiler.xml
+/.idea/externalDependencies.xml
+/.idea/gradle.xml
+/.idea/jarRepositories.xml
+/.idea/kotlinc.xml
+/.idea/misc.xml
+/.idea/modules.xml
+/.idea/uiDesigner.xml
+/.idea/vcs.xml
+/Contacts (Kotlin)/Create a menu/task.html
+/Contacts (Kotlin)/Create a menu/task-info.yaml
+/Contacts (Kotlin)/Create a menu/task-remote-info.yaml
+/Contacts (Kotlin)/First contact/task.html
+/Contacts (Kotlin)/First contact/task-info.yaml
+/Contacts (Kotlin)/First contact/task-remote-info.yaml
+/Contacts (Kotlin)/Searching/task.html
+/Contacts (Kotlin)/Searching/task-info.yaml
+/Contacts (Kotlin)/Searching/task-remote-info.yaml
+/Contacts (Kotlin)/Upgrade your contacts/task.html
+/Contacts (Kotlin)/Upgrade your contacts/task-info.yaml
+/Contacts (Kotlin)/Upgrade your contacts/task-remote-info.yaml
+/Contacts (Kotlin)/lesson-info.yaml
+/gradle/wrapper/gradle-wrapper.jar
+/gradle/wrapper/gradle-wrapper.properties
+/course-info.yaml
+/course-remote-info.yaml
+/gradlew
+/gradlew.bat
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/inputs/source-to-output.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-attributes.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/class-fq-name-to-source.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/internal-name-to-source.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/package-parts.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/proto.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/source-to-classes.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/subtypes.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/jvm/kotlin/supertypes.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/counters.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/file-to-id.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/id-to-file.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.keystream.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab.values.at
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/caches-jvm/lookups/lookups.tab_i.len
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/build-history.bin
+/Contacts (Kotlin)/task/build/kotlin/compileKotlin/last-build.bin
+/Contacts (Kotlin)/task/src/data/phonebook.db
+/Contacts (Kotlin)/task/build/classes/java/test/ContactsTest.class
+/Contacts (Kotlin)/task/build/classes/java/test/TestClue.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/validation/Adress.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/validation/Birthdate.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/validation/Gender.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/validation/Genders.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/ChooseRepository$Companion.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/ChooseRepository.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/CompanyContact.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/ContactRepository$DefaultImpls.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/ContactRepository.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/ContactStorage.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/IContact.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/InFileContactStorage.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/InMemoryContactStorage.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/LocalDateTimeAdapter.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/PersonContact.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/data/Serialiser.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/domain/OperationStatus.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/contacts/MainKt.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/data/Contact.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/data/ContactRepositoryImpl.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/META-INF/Contacts__Kotlin_-task.kotlin_module
+/Contacts (Kotlin)/task/build/classes/kotlin/main/operations/Command.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/operations/SimpleCommand.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/operations/UserActionResult$UserAction.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/operations/UserActionResult.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$1.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$2.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$3.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$4.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$5.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$6.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$7.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$8.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$9.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$readUserAction$10.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion$WhenMappings.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp$Companion.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/ContactsApp.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/InputReader$Companion.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/InputReader.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/Print$DefaultImpls.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/Print.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/presentation/PrintToConsole.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/useCase/ContactUseCase.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/validation/Name.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/validation/PhoneNumber.class
+/Contacts (Kotlin)/task/build/classes/kotlin/main/validation/Validate.class
+/Contacts (Kotlin)/task/build/reports/tests/test/classes/ContactsTest.html
+/Contacts (Kotlin)/task/build/reports/tests/test/css/base-style.css
+/Contacts (Kotlin)/task/build/reports/tests/test/css/style.css
+/Contacts (Kotlin)/task/build/reports/tests/test/js/report.js
+/Contacts (Kotlin)/task/build/reports/tests/test/packages/default-package.html
+/Contacts (Kotlin)/task/build/reports/tests/test/index.html
+/Contacts (Kotlin)/task/build/test-results/test/binary/output.bin
+/Contacts (Kotlin)/task/build/test-results/test/binary/output.bin.idx
+/Contacts (Kotlin)/task/build/test-results/test/binary/results.bin
+/Contacts (Kotlin)/task/build/test-results/test/TEST-ContactsTest.xml
+/Contacts (Kotlin)/task/build/tmp/compileTestJava/previous-compilation-data.bin
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_23924866106878643_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_147458204035141714_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_158756370463405591_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_460839037601259328_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_631311773599409922_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_871310463133641791_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_877775049528140901_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_1199233194927485816_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_1257175478612662331_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_1455306944502979781_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_1649151184917976236_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_1872782885808952812_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_2198085924360646375_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_2203985673919907304_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_2404547868249904199_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_2527192501734039396_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_2541784631956596475_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_2927068475457272047_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_2953563976411182333_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3107427535649810158_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3335654160572641478_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3344914888745263000_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3347985336971183891_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3352104343801909480_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3415992612783340423_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3548070142002553283_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3573143292521393388_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3661639673601285338_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_3802296133180900989_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_4167882870479565004_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_4169582296901543475_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_4447709388486222252_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_4556400518626389561_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_4758114630474480308_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_4809138310666367856_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_4895641347790523082_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_4993357902779426169_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_5235940545350548183_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_5273133418001745307_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_5424123538415864081_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_5636716190485693019_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_5640970151451552343_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_6114562422393647177_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_6255855220913967852_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_6256779763497928301_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_6671598648391253863_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_6687727659752315137_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_6888093098777818775_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_6979895300875130502_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_7001465641616606704_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_7035192298709088221_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_7093102877714891290_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_7341617469707703131_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_7663584946047938178_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_7908997266471174275_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_7949898981791069979_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_8160860746137235841_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_8191640310937763214_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_8334556320704915717_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_8411224229219284453_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_8494399377940158557_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_8615316839554050704_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_8908022716560413452_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9023172850986698168_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9085493550652351326_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9291089323299981986_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9302642435851270873_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9350395017145965497_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9523968093016921542_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9531855858025465689_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9600079566140423314_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9678263477024736342_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_9784263110137318270_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10007046998716822224_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10170247094560838931_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10231312580301823174_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10328328087586916680_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10450090205659189410_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10455937192260430135_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10623732016548297423_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10680023622269139064_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10724104818471947498_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10920088857865816774_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_10948952072034890475_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_11519827630240196220_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_11710685270619038443_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_11718509202720134018_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_11979830442438056925_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_12088167746463754891_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_12129408494122015357_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_12140366425617958225_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_12186514522940421981_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_12781480435402202131_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_12833833067543605337_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_13095959006078055335_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_13301891703466538395_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_13335204672295828702_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_13345018800753581559_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_13606904054080697635_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_13946218379204778962_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_14627436692715044153_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_14710195577639904640_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_14867953368511382655_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_15112681452041628024_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_15498301698866209391_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_15656399554837133406_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_15845184646534525424_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_16275578904272880358_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_16358250776815666235_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_16578882748661190985_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_16986840541951041526_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_17200745900503444670_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_17345481510204057757_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_17521826169333673580_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_17633218696193878255_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_17969891883631233750_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_18023341435636689820_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_18180904173144848361_tmp
+/Contacts (Kotlin)/task/build/tmp/test/jar_extract_18316514412063249584_tmp
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/validation/Adress.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/validation/Birthdate.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/validation/Gender.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/validation/Genders.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/ChooseRepository$Companion.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/ChooseRepository.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/CompanyContact.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/ContactRepository$DefaultImpls.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/ContactRepository.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/ContactStorage.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/IContact.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/InFileContactStorage.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/InMemoryContactStorage.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/LocalDateTimeAdapter.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/PersonContact.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/data/Serialiser.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/domain/OperationStatus.class
+/Contacts (Kotlin)/task/out/production/classes/contacts/MainKt.class
+/Contacts (Kotlin)/task/out/production/classes/data/Contact.class
+/Contacts (Kotlin)/task/out/production/classes/data/ContactRepositoryImpl.class
+/Contacts (Kotlin)/task/out/production/classes/META-INF/Contacts__Kotlin_-task.kotlin_module
+/Contacts (Kotlin)/task/out/production/classes/operations/Command.class
+/Contacts (Kotlin)/task/out/production/classes/operations/SimpleCommand.class
+/Contacts (Kotlin)/task/out/production/classes/operations/UserActionResult$UserAction.class
+/Contacts (Kotlin)/task/out/production/classes/operations/UserActionResult.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$1.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$2.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$3.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$4.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$5.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$6.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$7.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$8.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$9.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$readUserAction$10.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion$WhenMappings.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp$Companion.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/ContactsApp.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/InputReader$Companion.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/InputReader.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/Print$DefaultImpls.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/Print.class
+/Contacts (Kotlin)/task/out/production/classes/presentation/PrintToConsole.class
+/Contacts (Kotlin)/task/out/production/classes/useCase/ContactUseCase.class
+/Contacts (Kotlin)/task/out/production/classes/validation/Name.class
+/Contacts (Kotlin)/task/out/production/classes/validation/PhoneNumber.class
+/Contacts (Kotlin)/task/out/production/classes/validation/Validate.class
