@@ -9,6 +9,7 @@ data class CompanyContact(
     override var phoneNumber: String
 ) : Contact(phoneNumber) {
     override var type: String = "isCompany"
+
     var organisationName: String
         get() {
             return if (_organisationName != "") _organisationName else ""
@@ -26,18 +27,6 @@ data class CompanyContact(
             _address = value
             updateTimeLastEdit()
         }
-
-    override fun add(contact: Contact): OperationStatus {
-        TODO("Not yet implemented")
-    }
-
-    override fun delete(id: Int): OperationStatus {
-        TODO("Not yet implemented")
-    }
-
-    override fun get(id: Int): Contact {
-        TODO("Not yet implemented")
-    }
 
     override fun toString(): String {
         return "$organisationName"

@@ -1,55 +1,131 @@
 package useCase
 
-import contacts.useCase.ContactRepository
+import contacts.data.CompanyContact
+import contacts.data.PersonContact
+import contacts.data.ContactRepository
 import contacts.domain.OperationStatus
 import data.Contact
-import data.InMemoryContactRepository
 
 class ContactUseCase(
-    private val contactRepository: InMemoryContactRepository
-) : ContactRepository {
+    private val contactRepository: ContactRepository,
+) {
 
-    override fun createContact(contact: Contact) : OperationStatus {
-        return contactRepository.createContact(contact)
+    fun createContact(contact: Contact): OperationStatus {
+        return if (contactRepository.createContact(contact)) {
+            OperationStatus.SUCCESS
+        } else {
+            OperationStatus.FAILURE
+        }
     }
 
-    override fun getContact(id: Int): Contact {
+    fun getContact(id: Int): Contact {
         return contactRepository.getContact(id)
     }
 
-    override fun updateContactName(id: Int, newName: String): OperationStatus {
-        return contactRepository.updateContactName(id, newName)
+    fun updateContactName(id: Int, newName: String): OperationStatus {
+        return try {
+            when (contactRepository.getContact(id)) {
+                is PersonContact -> {
+                    contactRepository.updatePersonContactName(id, newName)
+                    return OperationStatus.SUCCESS
+                }
+
+                is CompanyContact -> {
+                    contactRepository.updateCompanyContactName(id, newName)
+                    return OperationStatus.SUCCESS
+                }
+
+                else -> {
+                    return OperationStatus.FAILURE
+                }
+            }
+        } catch (e: IndexOutOfBoundsException) {
+            return OperationStatus.FAILURE
+        }
     }
 
-    override fun updateContactSurname(id: Int, newSurname: String): OperationStatus {
-        return contactRepository.updateContactSurname(id, newSurname)
+    fun updateContactSurname(id: Int, newSurname: String): OperationStatus {
+        return try {
+            if (contactRepository.getContact(id) is PersonContact) {
+                contactRepository.updatePersonContactSurname(id, newSurname)
+                OperationStatus.SUCCESS
+            } else {
+                OperationStatus.FAILURE
+            }
+        } catch (e: IndexOutOfBoundsException) {
+            return OperationStatus.FAILURE
+        }
     }
 
-    override fun updateContactGender(id: Int, newGender: String): OperationStatus {
-        return contactRepository.updatePersonGender(id, newGender)
+    fun updateContactGender(id: Int, newGender: String): OperationStatus {
+        return try {
+            if (contactRepository.getContact(id) is PersonContact) {
+                contactRepository.updatePersonContactGender(id, newGender)
+                OperationStatus.SUCCESS
+            } else {
+                OperationStatus.FAILURE
+            }
+        } catch (e: IndexOutOfBoundsException) {
+            return OperationStatus.FAILURE
+        }
     }
 
-    override fun updateContactBirth(id: Int, newBirth: String): OperationStatus {
-        return contactRepository.updateContactBirth(id, newBirth)
+    fun updateContactBirth(id: Int, newBirth: String): OperationStatus {
+        return try {
+            if (contactRepository.getContact(id) is PersonContact) {
+                contactRepository.updatePersonContactBirth(id, newBirth)
+                OperationStatus.SUCCESS
+            } else {
+                OperationStatus.FAILURE
+            }
+        } catch (e: IndexOutOfBoundsException) {
+            return OperationStatus.FAILURE
+        }
     }
 
-    override fun updateContactPhoneNumber(id: Int, newPhoneNumber: String): OperationStatus {
-        return contactRepository.updateContactPhoneNumber(id, newPhoneNumber)
+    fun updateContactPhoneNumber(id: Int, newPhoneNumber: String): OperationStatus {
+        return try {
+            if (contactRepository.getContact(id) is PersonContact) {
+                contactRepository.updatePersonContactPhoneNumber(id, newPhoneNumber)
+                OperationStatus.SUCCESS
+            } else {
+                OperationStatus.FAILURE
+            }
+        } catch (e: IndexOutOfBoundsException) {
+            return OperationStatus.FAILURE
+        }
     }
 
-    override fun updateContactAddress(id: Int, newAddress: String): OperationStatus {
-        return contactRepository.updateContactAddress(id, newAddress)
+    fun updateContactAddress(id: Int, newAddress: String): OperationStatus {
+        return try {
+            if (contactRepository.getContact(id) is CompanyContact) {
+                contactRepository.updateCompanyContactAddress(id, newAddress)
+                OperationStatus.SUCCESS
+            } else {
+                OperationStatus.FAILURE
+            }
+        } catch (e: IndexOutOfBoundsException) {
+            return OperationStatus.FAILURE
+        }
     }
 
-    override fun deleteContact(id: Int): OperationStatus {
-        return contactRepository.deleteContact(id)
+    fun deleteContact(id: Int): OperationStatus {
+        return try {
+            if (contactRepository.deleteContact(id)) {
+                OperationStatus.SUCCESS
+            } else {
+                OperationStatus.FAILURE
+            }
+        } catch (e: IndexOutOfBoundsException) {
+            return OperationStatus.FAILURE
+        }
     }
 
-    override fun listContacts(): List<Contact> {
-        return contactRepository.listContacts()
+    fun listContacts(searchTerm: String = ""): List<Contact> {
+        return contactRepository.listContacts(searchTerm)
     }
 
-    override fun countContacts(): Int {
+    fun countContacts(): Int {
         return contactRepository.countContacts()
     }
 }

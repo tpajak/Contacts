@@ -2,22 +2,18 @@ package contacts.data
 
 import contacts.data.validation.Birthdate
 import contacts.data.validation.Gender
-import contacts.domain.OperationStatus
 import data.Contact
 import validation.PhoneNumber
 
 data class PersonContact(
-    private val _name: String,
-    private val _surname: String,
+    private var _name: String,
+    private var _surname: String,
     private var _birthdate: String,
     private var _gender: String,
     override var phoneNumber: String,
-) : Contact(phoneNumber), IContact, IPersonContact {
+) : Contact(phoneNumber), IContact {
 
     override var type: String = "isPerson"
-        get() {
-            return if (field != "") field else "[type not defined]"
-        }
 
     init {
         if (!PhoneNumber().isValid(phoneNumber)) {
@@ -39,90 +35,49 @@ data class PersonContact(
         }
     }
 
-    var name: String = _name
+    var name: String
         get() {
-            return if (field != "") field else ""
+            return _name
         }
         set(value) {
-            field = value
+            _name = value
             updateTimeLastEdit()
         }
 
-    var surname: String = _surname
+    var surname: String
         get() {
-            return if (field != "") field else ""
+            return _surname
         }
         set(value) {
-            field = value
+            _surname = value
             updateTimeLastEdit()
         }
 
-    var birthdate: String = _birthdate
+    var birthdate: String
         get() {
-            return if (field != "") field else ""
+            return _birthdate
         }
         set(value) {
             if (!Birthdate().isValid(value)) {
-                field = "[no data]"
+                _birthdate = "[no data]"
             } else {
-                field = value
+                _birthdate = value
             }
             updateTimeLastEdit()
         }
 
-    var gender: String = _gender
+    var gender: String
         get() {
-            return if (field != "") field else ""
+            return _gender
         }
         set(value) {
             if (!Gender().isValid(value)) {
-                field = "[no data]"
+                _gender = "[no data]"
             } else {
-                field = value
+                _gender = value
             }
             updateTimeLastEdit()
         }
-
-//    override var phoneNumber: String = _phoneNumber
-//        get() {
-//            return if (field != "") field else ""
-//        }
-//        set(value) {
-//            if (!PhoneNumber().isValid(value)) {
-//                field = "[no number]"
-//            } else {
-//                field = value
-//            }
-//            updateTimeLastEdit()
-//        }
-
-    override fun add(contact: Contact): OperationStatus {
-        TODO("Not yet implemented")
-    }
-
-    override fun delete(id: Int): OperationStatus {
-        TODO("Not yet implemented")
-    }
-
-    override fun get(id: Int): Contact {
-        TODO("Not yet implemented")
-    }
-
-    override fun updatePersonName(id: Int, newName: String): OperationStatus {
-        TODO("Not yet implemented")
-    }
-
-    override fun updatePersonSurname(id: Int, newSurname: String): OperationStatus {
-        TODO("Not yet implemented")
-    }
-
-    override fun updatePersonBirthdate(id: Int, newBirth: String): OperationStatus {
-        TODO("Not yet implemented")
-    }
-
-    override fun updatePersonGender(id: Int, newGender: String): OperationStatus {
-        TODO("Not yet implemented")
-    }
 
     override fun toString(): String {
         return "$name $surname"
